@@ -1,7 +1,7 @@
 Summary:	Simple menu editor for MATE
 Name:		mate-menu-editor
 Version:	1.2.0
-Release:	1
+Release:	2
 Group:		System/Configuration/Other
 License:	LGPLv2+
 URL:		http://mate-desktop.org
@@ -14,8 +14,8 @@ BuildRequires:	pkgconfig(libmate-menu)
 BuildRequires:	pkgconfig(pygtk-2.0)
 
 Requires:	pygtk2.0
-Requires:	mate-python-mateconf
-Requires:	mate-python
+Requires:	python-mateconf
+Requires:	python-mate
 Requires:	python-mate-menus
 
 Provides:	mozo = %{version}-%{release}
