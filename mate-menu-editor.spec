@@ -4,7 +4,7 @@ Version:	1.4.0
 Release:	1
 Group:		System/Configuration/Other
 License:	LGPLv2+
-URL:		http://mate-desktop.org
+URL:		https://mate-desktop.org
 Source0:	http://pub.mate-desktop.org/releases/1.4/%{name}-%{version}.tar.xz
 BuildArch:	noarch
 
